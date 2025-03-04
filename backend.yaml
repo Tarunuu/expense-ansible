@@ -31,4 +31,4 @@
     ansible.builtin.unarchive:
       src: /tmp/backend.zip #by default ansible thinks this is in ansible server
       dest: /app
-      remote_sre: yes
+      remote_src: yes
